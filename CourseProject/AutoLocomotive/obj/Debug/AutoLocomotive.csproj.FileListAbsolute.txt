@@ -1,0 +1,94 @@
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe.config
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.pdb
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csprojResolveAssemblyReference.cache
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\MainWindow.g.cs
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\App.g.cs
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.cache
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.lref
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\MainWindow.baml
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.g.resources
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.Properties.Resources.resources
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csproj.GenerateResource.Cache
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.exe
+E:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.pdb
+e:\учеба БГУИР\СВПП\CourseProject\AutoLocomotive\obj\Debug\GeneratedInternalTypeHelper.g.cs
+h:\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe.config
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.exe
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.pdb
+h:\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe
+h:\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.pdb
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csprojResolveAssemblyReference.cache
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\MainWindow.g.cs
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\App.g.cs
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\GeneratedInternalTypeHelper.g.cs
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.cache
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.lref
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\MainWindow.baml
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.g.resources
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.Properties.Resources.resources
+h:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csproj.GenerateResource.Cache
+k:\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe.config
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.exe
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.pdb
+k:\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe
+k:\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.pdb
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csprojResolveAssemblyReference.cache
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\MainWindow.g.cs
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\App.g.cs
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\GeneratedInternalTypeHelper.g.cs
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.cache
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.lref
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\MainWindow.baml
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.g.resources
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.Properties.Resources.resources
+k:\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csproj.GenerateResource.Cache
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe.config
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.exe
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.pdb
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.pdb
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csprojResolveAssemblyReference.cache
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\MainWindow.g.cs
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\App.g.cs
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\GeneratedInternalTypeHelper.g.cs
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.cache
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.lref
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\MainWindow.baml
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.g.resources
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.Properties.Resources.resources
+d:\IT\С#\СВПП\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csproj.GenerateResource.Cache
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe.config
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.exe
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.pdb
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.pdb
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csprojResolveAssemblyReference.cache
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\MainWindow.g.cs
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\App.g.cs
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\GeneratedInternalTypeHelper.g.cs
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.cache
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.lref
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\MainWindow.baml
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.g.resources
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.Properties.Resources.resources
+h:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csproj.GenerateResource.Cache
+m:\СВПП\Solutions\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe.config
+m:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.exe
+m:\СВПП\Solutions\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.pdb
+f:\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe.config
+f:\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.exe
+f:\CourseProject\AutoLocomotive\bin\Debug\AutoLocomotive.pdb
+f:\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csprojAssemblyReference.cache
+f:\CourseProject\AutoLocomotive\obj\Debug\MainWindow.g.cs
+f:\CourseProject\AutoLocomotive\obj\Debug\App.g.cs
+f:\CourseProject\AutoLocomotive\obj\Debug\GeneratedInternalTypeHelper.g.cs
+f:\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.cache
+f:\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive_MarkupCompile.lref
+f:\CourseProject\AutoLocomotive\obj\Debug\MainWindow.baml
+f:\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.g.resources
+f:\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.Properties.Resources.resources
+f:\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csproj.GenerateResource.cache
+f:\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.csproj.CoreCompileInputs.cache
+f:\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.exe
+f:\CourseProject\AutoLocomotive\obj\Debug\AutoLocomotive.pdb

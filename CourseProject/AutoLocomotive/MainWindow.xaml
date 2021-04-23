@@ -1,0 +1,140 @@
+﻿<Window x:Class="AutoLocomotive.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoLocomotive"
+        xmlns:vm="clr-namespace:AutoLocomotive" 
+        xmlns:vm1="clr-namespace:AutoLocomotive"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1100"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Background="Aquamarine">
+    <Window.Resources>
+        <vm:AutoLocomotiveViewModel x:Key="AutoLocomotiveViewModel"/>
+    </Window.Resources>
+    <Grid x:Name="MainGrid" DataContext="{Binding Source={StaticResource AutoLocomotiveViewModel}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="RailwayRoute" x:FieldModifier="public" Grid.Row="0" Grid.ColumnSpan="3" Background="Beige"  Margin="17,37,33,0" DataContext="{Binding Path=Route_Parameters.Map}"/>
+        <Label Content="Режимная карта" Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" FontSize="18" FontWeight="ExtraBold"/>
+        <Grid x:Name="LocomotiveParameters" Grid.Column="0" Grid.Row="1" Background="SkyBlue" Margin="17" DataContext="{Binding Source={StaticResource AutoLocomotiveViewModel}}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="82*"/>
+                <ColumnDefinition Width="65*"/>
+                <ColumnDefinition Width="36*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="1" BorderBrush="Gray" Grid.ColumnSpan="3" Grid.RowSpan="11"/>
+            <Label Grid.ColumnSpan="3" Grid.Row="0" Content="Параметры локомотива" HorizontalAlignment="Center" FontSize="18" Margin="90,0,53,0" Width="223" FontWeight="ExtraBold"/>
+            <Label Grid.Column="0" Grid.Row="1" Content="Текущая скорость:" FontSize="15"/>
+            <Label Grid.Column="0" Grid.Row="2" Content="Пройденный путь:" FontSize="15"/>
+            <Label Grid.Column="0" Grid.Row="3" Content="Время в пути:" FontSize="15"/>
+            <Label Grid.Column="0" Grid.Row="4" Content="Давление в ТМ:" FontSize="15"/>
+            <Label Grid.Column="0" Grid.Row="5" Content="Позиция КМ:" FontSize="15"/>
+            <Label Grid.ColumnSpan="2" Grid.Row="6" Content="Параметры пути" HorizontalAlignment="Center" FontSize="18" Margin="124,0,0,0" Width="170" FontWeight="ExtraBold"/>
+            <Label Grid.Column="0" Grid.Row="7" Content="Текущий км:" FontSize="15"/>
+            <Label Grid.Column="0" Grid.Row="8" Content="Текущий пикет:" FontSize="15"/>
+            <Label Grid.Column="0" Grid.Row="9" Content="Следующая станция:" FontSize="15"/>
+            <Label Grid.Column="0" Grid.Row="10" Content="Предыдущая станция:" FontSize="15"/>
+            <ListBox x:Name="listbox1" Grid.Column="1" Grid.Row="1" DataContext="{Binding Path=Locomotive_Parameters}" >
+                <Label x:Name="CurrentSpeed" HorizontalAlignment="Left" Height="32" Width="100" Content="{Binding Current_Speed,UpdateSourceTrigger=PropertyChanged}"/>
+            </ListBox>
+            <ListBox x:Name="listbox2" Grid.Column="1" Grid.Row="2" DataContext="{Binding Path=Locomotive_Parameters}">
+                <Label x:Name="Distanceraveled" HorizontalAlignment="Left" Height="32" Width="100" Content="{Binding Distance_Travelled,UpdateSourceTrigger=PropertyChanged}"/>
+            </ListBox>
+            <ListBox x:Name="listbox3" Grid.Column="1" Grid.Row="3" DataContext="{Binding Path=Locomotive_Parameters}">
+                <Label x:Name="TimeInRoute" HorizontalAlignment="Left" Height="32" Width="100" Content="{Binding Time_In_Route,UpdateSourceTrigger=PropertyChanged}"/>
+            </ListBox>
+            <ListBox x:Name="listbox4" Grid.Column="1" Grid.Row="4"  DataContext="{Binding Path=Locomotive_Parameters}">
+                <Label x:Name="BrakeLinePressure" HorizontalAlignment="Left" Height="32" Width="100" Content="{Binding Brake_Line_Pressure,UpdateSourceTrigger=PropertyChanged}"/>
+            </ListBox>
+            <ListBox x:Name="listbox5" Grid.Column="1" Grid.Row="5" DataContext="{Binding Path=Locomotive_Parameters}">
+                <Label x:Name="DriverControllerPosition" HorizontalAlignment="Left" Height="32" Width="100" Content="{Binding PositionKM,UpdateSourceTrigger=PropertyChanged}"/>
+            </ListBox>
+            <ListBox x:Name="listbox6" Grid.Column="1" Grid.Row="7" DataContext="{Binding Path=Route_Parameters}">
+                <Label x:Name="CurrentKm" HorizontalAlignment="Left" Height="32" Width="100" Content="{Binding Current_KM,UpdateSourceTrigger=PropertyChanged}"/>
+            </ListBox>
+            <ListBox x:Name="listbox7" Grid.Column="1" Grid.Row="8" DataContext="{Binding Path=Route_Parameters}">
+                <Label x:Name="CurrentP" HorizontalAlignment="Left" Height="32" Width="100" Content="{Binding Current_Picket,UpdateSourceTrigger=PropertyChanged}"/>
+            </ListBox>
+            <ListBox x:Name="listbox8" Grid.Column="1" Grid.Row="9" DataContext="{Binding Path=Route_Parameters}">
+                <Label x:Name="NextStation" HorizontalAlignment="Left" Height="32" Width="100" Content="{Binding Next_Name_Of_Station,UpdateSourceTrigger=PropertyChanged}"/>
+            </ListBox>
+            <ListBox x:Name="listbox9" Grid.Column="1" Grid.Row="10" DataContext="{Binding Path=Route_Parameters}">
+                <Label x:Name="PreviousStation" HorizontalAlignment="Left" Height="32" Width="100" Content="{Binding Previous_Name_Of_Station,UpdateSourceTrigger=PropertyChanged}"/>
+            </ListBox>
+            <Label Grid.Column="2" Grid.Row="1" Content="км/ч" FontSize="15" HorizontalAlignment="Center"/>
+            <Label Grid.Column="2" Grid.Row="2" Content="км" FontSize="15" HorizontalAlignment="Center"/>
+            <Label Grid.Column="2" Grid.Row="3" Content="ч" FontSize="15" HorizontalAlignment="Center"/>
+            <Label Grid.Column="2" Grid.Row="4" Content="МПа" FontSize="15" HorizontalAlignment="Center"/>
+        </Grid>
+        <Grid x:Name="LocomotiveControl" Grid.Column="2" Grid.Row="1" Background="SkyBlue" Margin="17,17,33,150">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="1" BorderBrush="Gray"  Grid.RowSpan="6"/>
+            <Label Grid.Row="0" Content="Ручное управление" HorizontalAlignment="Center" FontSize="18" FontWeight="ExtraBold"/>
+            <Button x:Name="StartMoving" Content="Начать движение" Grid.Row="1" FontSize="15"  Command="{Binding Source={StaticResource AutoLocomotiveViewModel},Path=ManualControl}"/>
+            <Button x:Name="Braking" Content="Торможение" Grid.Row="2" FontSize="15" />
+            <Button x:Name="EmergencyBraking" Content="Экстренное торможение" Grid.Row="3" FontSize="15" />
+            <Button x:Name="TypePosition" Content="Набрать позицию" Grid.Row="4" FontSize="15" Command="{Binding Source={StaticResource AutoLocomotiveViewModel},Path=PositionPlus}"/>
+            <Button x:Name="ResetPosition" Content="Сбросить позицию" Grid.Row="5" FontSize="15" />
+        </Grid>
+        <Grid x:Name="AutoLocomotiveControl" Grid.Column="2" Grid.Row="1" Background="SkyBlue" Margin="17,260,33,17">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Content="Автоматическое управление" FontSize="18" FontWeight="ExtraBold" HorizontalAlignment="Center"/>
+            <Button x:Name="StartMovingAuto" Content="Начать движение" Grid.Row="1" FontSize="15"  Command="{Binding Source={StaticResource AutoLocomotiveViewModel},Path=SubmitCommand}"/>
+            <Button x:Name="EmergencyBrakingAuto" Content="Экстренное торможение" Grid.Row="3" FontSize="15" />
+            <Border BorderThickness="1" BorderBrush="Gray"  Grid.RowSpan="6"/>
+        </Grid>
+        <Grid x:Name="Menu" Grid.Column="1" Grid.Row="1" Margin="17">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <RadioButton x:Name="Manual"  Grid.Row="0" Content="Ручное управление" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Command="{Binding Source={StaticResource AutoLocomotiveViewModel},Path=RadioButton_Manual}"/>
+            <RadioButton x:Name="Auto"  Grid.Row="1"  Content="Автоматическое управление" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Command="{Binding Source={StaticResource AutoLocomotiveViewModel},Path=RadioButton_Auto}"/>
+            <Label Grid.Row="2" Content="Выбор маршрута" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+            <ComboBox x:Name="NameOfRoute" Grid.Row="3" Margin="10">
+                <ComboBoxItem>Осиповичи-Минск </ComboBoxItem>
+            </ComboBox>
+            <Button x:Name="BuildRoute" Grid.Row="4" Margin="10" Content="Показать режимную карту" FontSize="15"  Command="{Binding Source={StaticResource AutoLocomotiveViewModel},Path=DrawMap}"/>
+        </Grid>
+    </Grid>
+
+
+</Window>
